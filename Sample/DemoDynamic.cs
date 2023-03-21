@@ -28,7 +28,7 @@ namespace Sample
 
 #pragma warning disable CS0649 // Field is never assigned to and will always have its default value null
 			[Entry ("Enter your login name")]
-			public string Username = null;
+			public string Username;
 
 			[Password ("Enter your password")]
 			public string Password;
